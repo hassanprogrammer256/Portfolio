@@ -14623,3 +14623,31 @@ body.white-version {
   color: var(--color-white) !important; }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+.required {
+    color: red;
+}
+
+.char-count {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
+
+.form-group input.error,
+.form-group textarea.error {
+    border-color: red;
+    background-color: #fff8f8;
+}
+
+.form-group input.valid,
+.form-group textarea.valid {
+    border-color: green;
+}
+
+.error-message {
+    font-size: 12px;
+    margin-top: 5px;
+}
